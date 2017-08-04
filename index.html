@@ -1,48 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>three-stacks</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-    
+<html>
+<title>three-stacks inc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <head>
-  <style>
-    .bg-1 { 
-      background-color: #1E90FF; 
-      color: #ffffff;
-    }
-  </style>
-</head>
-
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 <body>
-  <div class="container-fluid bg-1 text-center">
-    <h3>Welcome to Three-Stacks</h3>
-  
 
-    <div class="row">
-      <div class="col-sm-4">
-        <!-- <p>Lorem ipsum..</p> -->
-        <img src="https://i.imgur.com/769YCai.jpg" class="img-circle" alt="Image">
-        <h3>David Delgado</h3>
-      </div>
-      <div class="col-sm-4">
-        <!-- <p>Lorem ipsum..</p> -->
-        <img src="https://i.imgur.com/MGA3lor.png" class="img-circle"  alt="Image">
-        <h3>Rose Espiritu</h3>
-      </div>
-      <div class="col-sm-4"> 
-        <!-- <p>Lorem ipsum..</p> -->
-        <img src="https://i.imgur.com/5viMt5L.png" class="img-circle"  alt="Image">
-        <h3>Taijon Robinson</h3>
-      </div>
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button"><b>Three</b> Stacks</a>
+      <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#projects" class="w3-bar-item w3-button">Project</a>
+      <a href="#team" class="w3-bar-item w3-button">Team</a>
     </div>
   </div>
-</body>
+</div>
 
-<body>
-  About Us:
-</body>
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="https://i.imgur.com/0thvxUs.jpg" alt="tech" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Three</b></span> <span class="w3-hide-small w3-text-light-grey">Stacks</span></h1>
+  </div>
+</header>
 
+
+
+<div class="w3-content w3-padding" style="max-width:1564px">
+  <div class="w3-container w3-padding-32">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h3> 
+    <h1 class="w3-xxxlarge w3-text-teal" id="about"><b>About.</b></h1>
+    <!-- <hr style="width:50px;border:5px solid teal" class="w3-round"> -->
+    <div><p style="float: left;">
+      <img src="https://i.imgur.com/iUIW0KY.jpg" width="200" height="200"></p>
+      <p>Three-stacks is a thesis group from <a href="https://operationspark.org/" class="w3-text-teal">Operation Spark</a>'s May 2017 Software Immersion Program. We are a team of designers, tinkerers, 
+        and developers interested in building cool stuff! Our most recent project is Travel Pack, a cross platform chat application 
+        that helps groups plan a trip.      
+      </p>
+      <central><strong><h2><a href="https://github.com/three-stacks" class="w3-text-teal">Visit our GitHub!</a></h2></strong></central>
+    </div>
+</div>   
+  <div class="w3-content w3-padding" style="max-width:1564px">  
+    </div class="w3-container w3-padding-32">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h3>
+    <h1 class="w3-xxxlarge w3-text-teal" id="projects"><b>Project.</b></h1>
+    <!-- <hr style="width:50px;border:5px solid teal" class="w3-round"> -->
+    <p>Travelpack is a cross platform application that allows users to communicate in real time as they plan their trips. Users can search through tourist attractions and add items to the group(pack) itinerary. Once the item is on the group itinerary, pack members can gage the groups interest throught a polling feature. Travelpack comes with a built in budget calculator that helps packs estimate the cost of the trip as well as an agenda to help members track what anything what they need to do to prepare for the trip.
+    During the trip, users can utilize travelpack's find my pack feature to pin point the real time locations of their pack members and upload photos to the pack photo album to keeps all of their memories in one place! </p>
+    </div>
+  </div>
+
+<div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="https://i.imgur.com/af2tGcX.png" style="width:100%" onclick="onClick(this)" alt="wireframes">
+      <img src="https://i.imgur.com/1STTTkh.jpg" style="width:100%" onclick="onClick(this)" alt="tech stack">
+      
+    </div>
+
+    <div class="w3-half">
+      <img src="https://i.imgur.com/BCXTemO.png" style="width:100%" onclick="onClick(this)" alt="architecture">
+      <img src="https://i.imgur.com/n8jFzrJ.png" style="width:100%" onclick="onClick(this)" alt="schema">
+    </div>
+  </div>
+
+  <div class="team"> 
+  <div class="w3-content w3-padding" style="max-width:1564px">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h3>
+    <h1 class="w3-xxxlarge w3-text-teal" id="team"><b>Meet the Team.</b></h1>
+    <!-- <hr style="width:50px;border:5px solid teal" class="w3-round"> -->
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="https://i.imgur.com/Ej2sjde.jpg" class="img-circle"  alt="TRob" width="390" height="390">
+        <h3>Taijon Robinson</h3>
+        <p class="w3-opacity">Full-Stack Developer</p>
+        <p>Taijon is the code review king and pull request troll. Poorly written code doesn't stand a chance at getting deployed with this aspiring DevOps engineer's watch.
+        His attention to detail and understanding of network operations makes him an excellent asset to any testing team.</p>
+        <p><button class="w3-button w3-light-grey w3-block" onClick="window.open('')">Resume</button>
+        <button class="w3-button w3-light-grey w3-block" onClick="window.open('https://www.linkedin.com/in/trobinsonwe/');">Linkedin</button></p>
+    </div>
+      <div class="col-sm-4">
+        <img src="https://i.imgur.com/769YCai.jpg" class="img-circle" alt="David"  style="width:100%">
+        <h3>David Delgado</h3>
+        <p class="w3-opacity">Full-Stack Developer</p>
+        <p>David is the go-to for async problems and undercover designer! When he's not entertaining the team with his accents and impersonations, he is manipulating data to improve performance and speed. David is always thinking of ways to improve user experience
+        with seamless, intuitive design. </p>
+        <p><button class="w3-button w3-light-grey w3-block" onClick="window.open('')">Resume</button>
+        <button class="w3-button w3-light-grey w3-block" onClick="window.open('https://www.linkedin.com/in/david-j-delgado/');">Linkedin</button></p>
+      </div>
+      <div class="col-sm-4">
+        <img src="https://i.imgur.com/qmIwlSX.png" class="img-circle"  alt="Rose" style="width:100%">
+        <h3>Rose Espiritu</h3>
+        <p class="w3-opacity">Full-Stack Developer</p>
+        <p>Rose is the creative. She is constantly iterating and finding
+        </p>
+        <p><button class="w3-button w3-light-grey w3-block" onClick="window.open('https://www.dropbox.com/s/s76zifmdki141d0/Rose%20Espiritu%20Resume.pdf?dl=0');">Resume</button>
+        <button class="w3-button w3-light-grey w3-block" onClick="window.open('https://www.linkedin.com/in/roseespiritu/');">Linkedin</button></p>
+      </div>
+
+
+  </div>
+  </div>
+
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"></h3>
+      <h1 class="w3-xxxlarge w3-text-teal"><b>Contact.</b></h1>
+    <p>Lets get in touch and talk about your and our next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+
+  <footer class="w3-center w3-black w3-padding-48 w3-large">
+  <p>Powered by <a href="https://github.com/three-stacks" target="_blank" class="w3-text-teal">three-stacks inc</a></p>
+</footer>
+
+</body>
 </html>
